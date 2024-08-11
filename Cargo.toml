@@ -1,0 +1,7 @@
+[package]
+name = "Secure_Homomorphic_Computation_Using_TFHE_with_Customizable_Cryptographic_Parameters"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tfhe = { version = "*", features = ["boolean", "shortint", "integer", "x86_64"] }
