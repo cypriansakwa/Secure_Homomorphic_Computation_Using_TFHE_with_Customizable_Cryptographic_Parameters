@@ -25,5 +25,9 @@ This Rust project outlines how to utilize the TFHE library to perform secure hom
 - main.rs: Contains the core logic for configuring, encrypting, computing, and verifying results.
 - optimized_operations.rs: Implements optimized arithmetic and comparison operations on encrypted values.
    
+'''
 git clone  https://github.com/cypriansakwa/Secure_Homomorphic_Computation_Using_TFHE_with_Customizable_Cryptographic_Parameters.git
+'''
+'''
 cd Secure_Homomorphic_Computation_Using_TFHE_with_Customizable_Cryptographic_Parameters
+'''
