@@ -14,8 +14,11 @@ This Rust project outlines how to utilize the TFHE library to perform secure hom
 ## Installation
 ## Main Steps
 -**Configuration and Key Generation:** The ConfigBuilder is used to generate a configuration with the default cryptographic parameters. This configuration generates client and server keys.
+
 -**Encryption:** Clear values are encrypted using the client key to keep them secure during the computation.
+
 -**Homomorphic Computation:** Various arithmetic logical, and comparison operations are carried out directly on the encrypted data.
+
 -**Decryption:** The results of the computations are decrypted and verified against expected clear values.
 
 ## Code Structure
