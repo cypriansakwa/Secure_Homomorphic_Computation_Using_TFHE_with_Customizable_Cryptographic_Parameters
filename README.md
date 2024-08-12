@@ -12,7 +12,7 @@ This Rust project outlines how to utilize the TFHE library to perform secure hom
 - **Rust:** Ensure you have the latest stable version of Rust installed.
 
 >[!NOTE]
->Rust version: a minimum Rust version of 1.73 is required to compile TFHE-rs.
+>Rust version: a minimum Rust version of $1.73$ is required to compile TFHE-rs.
 
 - **TFHE Library:** The project depends on the TFHE library for fully homomorphic encryption. Ensure the library is included in your `Cargo.toml` file. 
 
@@ -23,10 +23,10 @@ cargo add tfhe
 #Alternatively paste the line below in 'Cargo.toml' 
 #For x86_64 machine running a Unix-like OS:
 
-tfhe = { version = "0.7.2", features = [ "boolean", "shortint", "integer", "x86_64-unix" ] }
+tfhe = { version = "$0.7.2$", features = [ "boolean", "shortint", "integer", "x86_64-unix" ] }
 #For ARM machine running a Unix-like OS:
 
-tfhe = { version = "0.7.2", features = [ "boolean", "shortint", "integer", "aarch64-unix" ] }
+tfhe = { version = "$0.7.2$", features = [ "boolean", "shortint", "integer", "aarch64-unix" ] }
 #For x86_64 machines with the rdseed instruction running Windows:
 
 tfhe = { version = "*", features = ["boolean", "shortint", "integer", "x86_64"] }
