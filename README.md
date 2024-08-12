@@ -23,10 +23,10 @@ cargo add tfhe
 #Alternatively paste the line below in 'Cargo.toml' 
 #For x86_64 machine running a Unix-like OS:
 
-tfhe = { version = "$0.7.2$", features = [ "boolean", "shortint", "integer", "x86_64-unix" ] }
+tfhe = { version = "0.7.2", features = [ "boolean", "shortint", "integer", "x86_64-unix" ] }
 #For ARM machine running a Unix-like OS:
 
-tfhe = { version = "$0.7.2$", features = [ "boolean", "shortint", "integer", "aarch64-unix" ] }
+tfhe = { version = "0.7.2", features = [ "boolean", "shortint", "integer", "aarch64-unix" ] }
 #For x86_64 machines with the rdseed instruction running Windows:
 
 tfhe = { version = "*", features = ["boolean", "shortint", "integer", "x86_64"] }
