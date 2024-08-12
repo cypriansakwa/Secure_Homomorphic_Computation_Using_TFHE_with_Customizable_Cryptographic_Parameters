@@ -59,5 +59,5 @@ cd Secure_Homomorphic_Computation_Using_TFHE_with_Customizable_Cryptographic_Par
 >[!TIP]
 > Performance: for optimal performance, it is highly recommended to run code that uses TFHE-rs in release mode with cargo's --release flag.
 >```
-cargo -- run release
+>cargo -- run release
 >```
