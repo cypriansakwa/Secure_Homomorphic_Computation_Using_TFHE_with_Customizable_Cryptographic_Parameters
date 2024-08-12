@@ -3,6 +3,13 @@
 version = 3
 
 [[package]]
+name = "Secure_Homomorphic_Computation_Using_TFHE_with_Customizable_Cryptographic_Parameters"
+version = "0.1.0"
+dependencies = [
+ "tfhe",
+]
+
+[[package]]
 name = "aes"
 version = "0.8.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -20,13 +27,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4aa90d7ce82d4be67b64039a3d588d38dbcc6736577de4a847025ce5b0c468d1"
 dependencies = [
  "serde",
-]
-
-[[package]]
-name = "atena"
-version = "0.1.0"
-dependencies = [
- "tfhe",
 ]
 
 [[package]]
